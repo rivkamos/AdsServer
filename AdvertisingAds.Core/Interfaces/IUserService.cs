@@ -10,7 +10,7 @@ namespace AdvertisingAds.Core.Interfaces
 {
     public interface IUserService
     {
-        Task<bool> Signup(User user);
+        Task<User> Signup(User user);
         Task<User> Signin(User user);
     }
 }

@@ -36,22 +36,22 @@ namespace Advertisung.Repository
             await File.WriteAllTextAsync(_filePath, jsonData);
         }
 
-        public async Task<bool> SignUp(User user)
+        public async Task<User?> SignUp(User user)
         {
             var users = GetAllUsers();
             if (users.Any(u => u.Email == user.Email))
             {
-                return false; // User already exists
+                return null;
             }
 
             await SaveUser(user);
-            return true; // User registered successfully
+            return user; 
         }
 
         public async Task<User> SignIn(User user)
         {
             var currentUser = GetAllUsers().FirstOrDefault(u => u.password == user.password && u.Email == user.Email);
-            return currentUser; // Returns the user if found, otherwise null
+            return currentUser;
         }
     }
 }

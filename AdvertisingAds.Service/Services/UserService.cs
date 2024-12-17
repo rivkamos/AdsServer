@@ -14,7 +14,7 @@ namespace AdvertisingAds.Service.Services
             _userRepository = userRepository;
         }
 
-        public async Task<bool> Signup(User user)
+        public async Task<User> Signup(User user)
         {
             return await _userRepository.SignUp(user);
         }
