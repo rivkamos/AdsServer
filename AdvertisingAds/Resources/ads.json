@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "CreatorId": 1,
     "Title": "Brand New Bicycle for Sale",
     "Location": {
       "City": "Bnei Brak",
@@ -15,6 +16,7 @@
   },
   {
     "Id": 2,
+    "CreatorId": 1,
     "Title": "Vintage Camera Collection",
     "Location": {
       "City": "Bnei Brak",
@@ -29,6 +31,7 @@
   },
   {
     "Id": 3,
+    "CreatorId": 1,
     "Title": "Vintage Camera Collection",
     "Location": {
       "City": "Bnei Brak",
@@ -44,6 +47,7 @@
 
   {
     "Id": 4,
+    "CreatorId": 1,
     "Title": "Vintage Camera Collection",
     "Location": {
       "City": "Bnei Brak",
@@ -59,6 +63,7 @@
 
   {
     "Id": 5,
+    "CreatorId": 1,
     "Title": "Vintage Camera Collection",
     "Location": {
       "City": "Bnei Brak",
