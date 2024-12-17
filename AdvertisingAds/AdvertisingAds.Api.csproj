@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Resources\ads.json" />
+    <Content Remove="Resources\users.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\users.json" />
+    <None Include="Resources\ads.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="jose-jwt" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdvertisingAds.Core\AdvertisingAds.Core.csproj" />
+    <ProjectReference Include="..\AdvertisingAds.Service\AdvertisingAds.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
+</Project>

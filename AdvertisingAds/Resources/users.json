@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "1",
+    "password": "defaultUser1",
+    "Email": "user1@example.com"
+  },
+  {
+    "Id": "2",
+    "password": "defaultUser2",
+    "Email": "user2@example.com"
+  },
+  {
+    "Id": "3",
+    "password": "defaultUser3",
+    "Email": "user3@example.com"
+  },
+  {
+    "Id": "string",
+    "password": "789",
+    "Email": "ee@dd.com"
+  },
+  {
+    "Id": "a1df1b55-6a28-4b33-b191-84a8e04c73cf",
+    "password": "string",
+    "Email": "string"
+  },
+  {
+    "Id": "fe92fbbb-617b-4d69-a2fc-042747b22571",
+    "password": "12346578",
+    "Email": "eeee@dd.com"
+  },
+  {
+    "Id": "c8f5e43d-feeb-4216-87f7-99d63d845abf",
+    "password": "sssssss",
+    "Email": "sss@dd.com"
+  },
+  {
+    "Id": "f08930ba-b071-4082-8ed8-28b17383baa7",
+    "password": "12345678",
+    "Email": "ffff@dd.com"
+  }
+]

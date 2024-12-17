@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "Title": "Brand New Bicycle for Sale",
+    "Location": {
+      "City": "Bnei Brak",
+      "Area": "Central"
+    },
+    "Type": "Buy_Sell",
+    "Description": "A high-quality mountain bike, barely used. Perfect for trails and commuting.",
+    "ImageAdUrl": "Images/house.jpeg",
+    "ImageAdvertiserUrl": null,
+    "PostedDate": "2023-10-01T12:00:00Z",
+    "Likes": 1
+  },
+  {
+    "Id": 2,
+    "Title": "Vintage Camera Collection",
+    "Location": {
+      "City": "Bnei Brak",
+      "Area": "Central"
+    },
+    "Type": "Buy_Sell",
+    "Description": "A collection of vintage cameras available for purchase. Great for collectors.",
+    "ImageAdUrl": null,
+    "ImageAdvertiserUrl": null,
+    "PostedDate": "2023-09-15T12:00:00Z",
+    "Likes": 0
+  },
+  {
+    "Id": 3,
+    "Title": "Vintage Camera Collection",
+    "Location": {
+      "City": "Bnei Brak",
+      "Area": "Central"
+    },
+    "Type": "Travel",
+    "Description": "A collection of vintage cameras available for purchase. Great for collectors.",
+    "ImageAdUrl": null,
+    "ImageAdvertiserUrl": null,
+    "PostedDate": "2023-09-15T12:00:00Z",
+    "Likes": 0
+  },
+
+  {
+    "Id": 4,
+    "Title": "Vintage Camera Collection",
+    "Location": {
+      "City": "Bnei Brak",
+      "Area": "Central"
+    },
+    "Type": "events",
+    "Description": "A collection of vintage cameras available for purchase. Great for collectors.",
+    "ImageAdUrl": null,
+    "ImageAdvertiserUrl": null,
+    "PostedDate": "2023-09-15T12:00:00Z",
+    "Likes": 0
+  },
+
+  {
+    "Id": 5,
+    "Title": "Vintage Camera Collection",
+    "Location": {
+      "City": "Bnei Brak",
+      "Area": "Central"
+    },
+    "Type": "Rent",
+    "Description": "A collection of vintage cameras available for purchase. Great for collectors.",
+    "ImageAdUrl": null,
+    "ImageAdvertiserUrl": null,
+    "PostedDate": "2023-09-15T12:00:00Z",
+    "Likes": 0
+  }
+]
